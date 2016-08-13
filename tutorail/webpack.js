@@ -1,5 +1,5 @@
 // webpack 是一个模块打包器。
-// 这意味着webpack 将模块和其依赖打包，发布为静态的资源来代替这些模块本身.
+// 这意味着webpack 将相互依赖的模块打包，发布为静态的资源来代替这些模块本身.
 
 // 依赖的导入可以使用 CommonJs 完成
 var commonjs = require("./commonjs");
